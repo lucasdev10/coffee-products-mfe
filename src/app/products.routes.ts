@@ -1,22 +1,23 @@
 import { Routes } from '@angular/router';
+import { ProductListPageComponent } from './pages';
 
 export const PRODUCT_ROUTES: Routes = [
   {
     path: '',
     children: [
-      // Placeholder routes - will be populated in task 4.5
       {
         path: '',
-        component: null as any, // Will be ProductListPage
+        component: ProductListPageComponent,
       },
-      {
-        path: ':id',
-        component: null as any, // Will be ProductDetailPage
-      },
-      {
-        path: 'new',
-        component: null as any, // Will be ProductCreatePage
-      },
+      // ProductDetailPage and ProductCreatePage will be added in future tasks
+      // {
+      //   path: ':id',
+      //   component: ProductDetailPageComponent,
+      // },
+      // {
+      //   path: 'new',
+      //   component: ProductCreatePageComponent,
+      // },
     ],
   },
 ];
