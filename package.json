@@ -1,0 +1,47 @@
+{
+  "name": "coffee-products-mfe",
+  "version": "1.0.0",
+  "description": "Products Micro Frontend for CoffeeWorkshop",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --port 4201 --disable-host-check",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "test:coverage": "ng test --code-coverage --watch=false",
+    "lint": "ng lint"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^21.1.0",
+    "@angular/common": "^21.1.0",
+    "@angular/compiler": "^21.1.0",
+    "@angular/core": "^21.1.0",
+    "@angular/forms": "^21.1.0",
+    "@angular/material": "~21.1.5",
+    "@angular/platform-browser": "^21.1.0",
+    "@angular/platform-browser-dynamic": "^21.1.0",
+    "@angular/router": "^21.1.0",
+    "@ngrx/effects": "^21.0.1",
+    "@ngrx/store": "^21.0.1",
+    "coffee-shared-lib": "file:../coffee-shared-lib",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-architects/module-federation": "^21.2.2",
+    "@angular-devkit/build-angular": "^21.1.2",
+    "@angular/build": "^21.1.2",
+    "@angular/cli": "^21.1.2",
+    "@angular/compiler-cli": "^21.1.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.9.2"
+  }
+}
