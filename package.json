@@ -4,7 +4,7 @@
   "description": "Products Micro Frontend for CoffeeWorkshop",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4201 --disable-host-check",
+    "start": "ng serve --port 4201",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "vitest --run",
