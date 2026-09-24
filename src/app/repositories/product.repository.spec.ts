@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { ProductRepository } from './product.repository';
 import { IProduct, ICreateProductDto, IUpdateProductDto } from '../models/product.model';
+import { vi } from 'vitest';
 
 describe('ProductRepository', () => {
   let repository: ProductRepository;
